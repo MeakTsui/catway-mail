@@ -6,7 +6,7 @@ import randomMail from "~/lib/random";
 import MailInput from "./_components/mail-input";
 
 export default async function LandingPage() {
-  const mail = randomMail() + "@catway.org";
+  const mail = randomMail() + "@dinxinyuan.cn";
   return (
     <main className="container mx-auto mb-14 mt-6 flex flex-col items-center justify-center gap-6">
       <div className="flex h-full flex-col items-center gap-2">
