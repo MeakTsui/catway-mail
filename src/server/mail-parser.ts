@@ -5,7 +5,7 @@ import { updateOrCreateMail } from "./queries";
 console.log("Running email watcher...");
 
 // Path to the mailbox file
-const mailboxPath = "/var/mail/root";
+const mailboxPath = "/var/mail/ec2-user";
 let processing = false;
 
 const parserSenderRegex = /"([^"]+)"\s*<([^>]+)>/;
